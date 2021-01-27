@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 @app.get("/")
-def read_root():
+def index():
     print("Hello, FastaAPI Template~")
     return {"RES": "Happy"}
 
