@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-import uvicorn, requests
+import uvicorn
+import requests
 from requests.auth import HTTPBasicAuth
 
 app = FastAPI()
