@@ -35,8 +35,8 @@ co.send(string)
 time.sleep(5)
 co.send("Good Sleep")
 time.sleep(3)
-co.send(next(c1))
-print(next(c1))
+# co.send(next(c1))
+# print(next(c1))
 
 
 
